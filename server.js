@@ -15,7 +15,7 @@ dotenv.config();
 connectDB();
 //es6 fix
 const __filename=fileURLToPath(import.meta.url);
-const __dirname=path.dirame(__filename);
+const __dirname=path.dirname(__filename);
 //rest object
 const app= express();
 //middleware
